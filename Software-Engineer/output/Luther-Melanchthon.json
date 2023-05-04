@@ -1,0 +1,247 @@
+{
+  "type": [
+    "https://openprd.oddlygeek.com/Schema/Resume"
+  ],
+  "properties": {
+    "ContactCard": [
+      {
+        "type": [
+          "https://openprd.oddlygeek.com/Schema/ContactCard"
+        ],
+        "properties": {
+          "email": [
+            "mailto:LutherMelanchthon@OddlyGeek.com"
+          ],
+          "phone": [
+            "(256)591-7495"
+          ],
+          "linkedin": [
+            "https://www.linkedin.com/in/luther-melanchthon"
+          ],
+          "github": [
+            "https://github.com/LutherMelanchthon"
+          ]
+        }
+      }
+    ],
+    "SkillList": [
+      {
+        "type": [
+          "https://openprd.oddlygeek.com/Schema/Skill"
+        ],
+        "properties": {
+          "skill": [
+            "Python3",
+            "Flask Microframework",
+            "Back-End Development",
+            "Linux Enviroment",
+            "CLI Tools",
+            "CSS",
+            "HTML",
+            "SASS",
+            "JavaScript",
+            "SQLAlchemy",
+            "Creative Problem Solving",
+            "Peer Mentoring",
+            "Technical Training",
+            "Communication",
+            "Quick Learner",
+            "Quality Motivated",
+            "Analytical",
+            "Versatile",
+            "Self-directed Learning"
+          ]
+        }
+      }
+    ],
+    "EducationList": [
+      "Education  --Degree--  Gadsden State Community College  Associates DegreeComputer Science  Oct  2001 - May 2004"
+    ],
+    "School": [
+      {
+        "type": [
+          "https://openprd.oddlygeek.com/Schema/School"
+        ],
+        "properties": {
+          "name": [
+            "Gadsden State Community College"
+          ],
+          "degree": [
+            "Associates DegreeComputer Science  Oct  2001 - May 2004"
+          ],
+          "major": [
+            "Computer Science"
+          ],
+          "startDate": [
+            "  Oct  2001"
+          ],
+          "endDate": [
+            "May 2004"
+          ]
+        }
+      }
+    ],
+    "Person": [
+      {
+        "type": [
+          "https://openprd.oddlygeek.com/Schema/Person"
+        ],
+        "properties": {
+          "firstName": [
+            "Luther"
+          ],
+          "lastName": [
+            "Melanchthon"
+          ]
+        }
+      }
+    ],
+    "Summary": [
+      "Experienced Software Developer with 11 years of expertise in Python and cloud services. Proven track record of delivering high-quality software solutions in three different companies. Skilled in designing, developing, and deploying cloud-based applications. Adept at collaborating with cross-functional teams to identify business requirements and provide effective solutions. Strong problem-solving skills and ability to adapt to new technologies. Looking to bring my skills and experience to a new challenge in a dynamic and innovative organization.  "
+    ],
+    "ExperienceList": [
+      {
+        "type": [
+          "https://openprd.oddlygeek.com/Schema/ExperienceList"
+        ],
+        "properties": {
+          "ExperienceItem": [
+            {
+              "type": [
+                "https://openprd.oddlygeek.com/Schema/ExperienceWork"
+              ],
+              "properties": {
+                "jobTitle": [
+                  "Senior Software Engineer"
+                ],
+                "organization": [
+                  "https://www.gutenbergpress.oddlygeek.com/"
+                ],
+                "location": [
+                  "Remote, USA | June 2020 - Current",
+                  "Remote, USA"
+                ],
+                "startDate": [
+                  "June 2020"
+                ],
+                "endDate": [
+                  "Current"
+                ],
+                "experienceDescription": [
+                  {
+                    "type": [
+                      "https://openprd.oddlygeek.com/Schema/experienceDescription"
+                    ],
+                    "properties": {
+                      "summary": [
+                        "  As a Senior Software Developer at John Mac's Fresca Bar, I was responsible for developing and maintaining software applications for customer product digital video menus. During my three years at the company, I gained extensive experience in designing and developing cloud-based applications, video streaming, and user interface design. I also collaborated with cross-functional teams to deliver high-quality software solutions that met business requirements."
+                      ],
+                      "bulletPoint": [
+                        "Designed and developed a cloud-based digital video menu system that displayed product information and video ads to customers using Python, Flask, and AWS",
+                        "Developed a video streaming solution that optimized video quality and minimized buffering using HLS and MPEG-DASH",
+                        "Implemented a user interface design that provided an intuitive and engaging experience for customers using React and Material UI",
+                        "Integrated with third-party APIs such as Google Analytics and Facebook Pixel to provide insights on customer behavior and ad performance",
+                        "Developed and maintained an internal reporting system using Flask and PostgreSQL to provide insights on customer engagement and ad performance",
+                        "Led a team of developers to develop a mobile app for customers to browse and order products using React Native and Node.js",
+                        "Participated in code reviews and provided feedback to team members to improve code quality and maintainability",
+                        "Worked with QA team to identify and resolve software defects."
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": [
+                "https://openprd.oddlygeek.com/Schema/ExperienceWork"
+              ],
+              "properties": {
+                "jobTitle": [
+                  "Mid-Level Software Developer"
+                ],
+                "organization": [
+                  "https://www.SpurgeonsPulpitOnline.com/"
+                ],
+                "location": [
+                  "Surrey, UK"
+                ],
+                "startDate": [
+                  "April 2014"
+                ],
+                "endDate": [
+                  "June 2020"
+                ],
+                "experienceDescription": [
+                  {
+                    "type": [
+                      "https://openprd.oddlygeek.com/Schema/experienceDescription"
+                    ],
+                    "properties": {
+                      "summary": [
+                        "As a Mid-Level Software Developer at Spurgeon's Pulpit Online book retailer, I was responsible for developing and maintaining software applications for book inventory and entry systems. During my six years at the company, I gained extensive experience in full-stack development, database management, and system integration. I also collaborated with cross-functional teams to deliver high-quality software solutions that met business requirements.  "
+                      ],
+                      "bulletPoint": [
+                        "Developed and maintained a book inventory management system that tracked over 50,000 books using Python, Django, and PostgreSQL",
+                        "Implemented an automated book entry system that reduced manual data entry by 50% using Python and OpenCV",
+                        "Collaborated with the design team to develop a responsive web application for customers to browse and purchase books using HTML, CSS, and JavaScript",
+                        "Integrated third-party APIs such as Amazon and Goodreads to enhance the book browsing and purchasing experience for customers",
+                        "Developed and maintained an internal reporting system using Flask and PostgreSQL to provide insights on sales and inventory levels",
+                        "Led a team of developers to develop a mobile app for customers to browse and purchase books using React Native and Node.js",
+                        "Participated in code reviews and provided feedback to team members to improve code quality and maintainability",
+                        "Worked with QA team to identify and resolve software defects"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": [
+                "https://openprd.oddlygeek.com/Schema/ExperienceWork"
+              ],
+              "properties": {
+                "jobTitle": [
+                  "Entry Level Software Developer"
+                ],
+                "organization": [
+                  "Acme Atoms"
+                ],
+                "location": [
+                  "Gutenberg, Germany"
+                ],
+                "startDate": [
+                  "January 2012"
+                ],
+                "endDate": [
+                  "April 2014"
+                ],
+                "experienceDescription": [
+                  {
+                    "type": [
+                      "https://openprd.oddlygeek.com/Schema/experienceDescription"
+                    ],
+                    "properties": {
+                      "summary": [
+                        "As an entry-level Software Developer at Acme Atoms, I gained valuable experience in developing software applications and working in a team environment. During my two years at the company, I contributed to the development of several projects, honed my technical skills, and developed effective communication and collaboration skills.  "
+                      ],
+                      "bulletPoint": [
+                        "Collaborated with senior developers to develop and maintain software applications for clients",
+                        "Participated in Agile development processes including daily stand-up meetings, sprint planning, and retrospectives",
+                        "Worked with a team of developers to develop and maintain a web-based inventory management system using Python and Django",
+                        "Contributed to the development of a mobile app for a client using React Native and Node.js",
+                        "Developed and maintained an internal web application for tracking employee attendance using Flask and MySQL",
+                        "Participated in code reviews and provided feedback to team members to improve code quality and maintainability",
+                        "Worked with QA team to identify and resolve software defects",
+                        "Gained experience in version control using Git and collaboration tools such as JIRA and Confluence."
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

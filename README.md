@@ -4,9 +4,9 @@ This repository contains examples of resumes formatted using the Open Portable R
 
 ## Examples
 
-Each example includes a resume file with the .prd extension for the OpenPRD format and a JSON file that displays the resume data as would be pulled with a prd reading script.
+Each example includes a resume file in the OpenPRD .prd or .prx format and a JSON file that displays the resume data as would be pulled with a prd reading script.
 
-Here are some of the examples included in this repository:
+Here are some of the examples that will be included in this repository:
 
 - `basic-resume`: This example includes a basic resume with sections for contact information, education, work experience, and skills.
 - `developer-resume`: This example includes a resume for a software developer with additional sections for programming languages, tools, and projects.
