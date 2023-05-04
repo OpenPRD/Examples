@@ -18,7 +18,7 @@
     <!-- Begining of portable data tagging  -->
     <!-- First declare the type of document, can be either Resume or Curriculum Vitae --> 
     <!-- Document type is first order scope and only delcared once -->
-  <body itemprop="Resume" itemscope  itemtype="https://openprd.oddlygeek.com/Schema/Resume" >
+  <body itemprop="Resume" itemscope  itemtype="https://openprd.org/Schema/Resume" >
 
     <!-- 
       All resume data should remain within the document itemscope and be 
@@ -41,7 +41,7 @@
           social media, portfolio pages, ect 
         -->
 
-        <div class="aside-item contact" itemprop="ContactCard" itemscope itemtype="https://openprd.oddlygeek.com/Schema/ContactCard">
+        <div class="aside-item contact" itemprop="ContactCard" itemscope itemtype="https://openprd.org/Schema/ContactCard">
           <h3>Contact</h3>
 
           <span class="aside-label">Email ✉</span>
@@ -83,7 +83,7 @@
 
         <div class="aside-item">
           <h3>Skills</h3>
-          <div id="skills" itemprop="SkillList" itemscope itemtype="https://openprd.oddlygeek.com/Schema/Skill">
+          <div id="skills" itemprop="SkillList" itemscope itemtype="https://openprd.org/Schema/Skill">
         
             <div class="divider"><span>--Strongest Technical--</span></div>
 
@@ -168,9 +168,9 @@
             </li>
           </div>
         </div>
-        <div class="aside-item education" itempscope itemprop="EducationList" itemtype="https://openprd.oddlygeek.com/Schema/EducationList">
+        <div class="aside-item education" itempscope itemprop="EducationList" itemtype="https://openprd.org/Schema/EducationList">
           <h3>Education</h3>
-          <div class="aside-item education" itemscope itemprop="School" itemtype="https://openprd.oddlygeek.com/Schema/School">
+          <div class="aside-item education" itemscope itemprop="School" itemtype="https://openprd.org/Schema/School">
             <div class="divider"><span>--Degree--</span></div>
             <span class="aside-label" itemprop="name">Gadsden State Community College</span>
             <span class="aside-detail small-text" itemprop="degree"
@@ -209,7 +209,7 @@
 
       <section id="main-body">
         <header>
-          <h1 itemprop="Person" itemscope itemtype="https://openprd.oddlygeek.com/Schema/Person"><span itemprop="firstName">Luther</span> <span itemprop="lastName">Melanchthon</span></h1>
+          <h1 itemprop="Person" itemscope itemtype="https://openprd.org/Schema/Person"><span itemprop="firstName">Luther</span> <span itemprop="lastName">Melanchthon</span></h1>
           <!-- The name property should be tagged in a list -->
           <h4>Software Engineer</h4>
           <div id="summary" itemprop="Summary">
@@ -218,14 +218,14 @@
             </p>
           </div>
         </header>
-        <section id="experience-list" itemscope itemtype="https://openprd.oddlygeek.com/Schema/ExperienceList" itemprop="ExperienceList">
+        <section id="experience-list" itemscope itemtype="https://openprd.org/Schema/ExperienceList" itemprop="ExperienceList">
         <div class="separator">
           <h2>
             Experience / Work History<br /><small>sorted by relevance</small>
           </h2>
         </div>
         
-        <div class="experience" itemprop="ExperienceItem" itemscope itemtype="https://openprd.oddlygeek.com/Schema/ExperienceWork">
+        <div class="experience" itemprop="ExperienceItem" itemscope itemtype="https://openprd.org/Schema/ExperienceWork">
           <!-- 
             Here we can use multiple types for experience. Which can include
             work, volunteer, school, and project as type. But in such a way that 
@@ -234,11 +234,10 @@
           -->
           <h3>
             <span itemprop="jobTitle">Senior Software Engineer</span> |
-            <a href="https://www.gutenbergpress.oddlygeek.com/"
-             itemprop="organization" >John Mac's Fresca Bar</a
+            <span itemprop="organization" >John Mac's Fresca Bar</span
             >
           </h3>
-          <h4 itemprop="location"><span itemprop="location">Remote, USA</span> | <span itemprop="startDate">June 2020</span> - <span itemprop="endDate">Current</span></h4>
+          <h4 itemprop="location"><span itemprop="location">Remote, USA</span> <span itemprop="startDate">June 2020</span> - <span itemprop="endDate">Current</span></h4>
           <!-- 
             Describing work experience needs to be flexable, bullet points are
             common but not necessarily exclusivly used, there can also be a job 
@@ -246,7 +245,7 @@
             with added properties that can iterated over or selected by property
             value, i.e. 'summary' or 'bulletPoint'
           -->
-          <div itemscope itemprop="experienceDescription" itemtype="https://openprd.oddlygeek.com/Schema/experienceDescription">
+          <div itemscope itemprop="experienceDescription" itemtype="https://openprd.org/Schema/experienceDescription">
           <p itemprop="summary">
             As a Senior Software Developer at John Mac's Fresca Bar, I was responsible for developing and maintaining software applications for customer product digital video menus. During my three years at the company, I gained extensive experience in designing and developing cloud-based applications, video streaming, and user interface design. I also collaborated with cross-functional teams to deliver high-quality software solutions that met business requirements.
           </p>
@@ -263,7 +262,7 @@
         </div>
           </div>
       <!-- <section id="main-body" itemscope itemtype="experience"> -->
-        <div class="experience" itemprop="ExperienceItem" itemscope itemtype="https://openprd.oddlygeek.com/Schema/ExperienceWork">
+        <div class="experience" itemprop="ExperienceItem" itemscope itemtype="https://openprd.org/Schema/ExperienceWork">
           <h3>
             <span itemprop="jobTitle">Mid-Level Software Developer</span> |
             <a class="sitelinks" href="https://www.SpurgeonsPulpitOnline.com/"
@@ -271,7 +270,7 @@
             >
           </h3>
           <h4><span itemprop="location">Surrey, UK</span> | <span itemprop="startDate">April 2014</span> - <span itemprop="endDate">June 2020</span></h4>
-          <div itemscope itemprop="experienceDescription" itemtype="https://openprd.oddlygeek.com/Schema/experienceDescription">
+          <div itemscope itemprop="experienceDescription" itemtype="https://openprd.org/Schema/experienceDescription">
             <p itemprop="summary">
               As a Mid-Level Software Developer at Spurgeon's Pulpit Online book retailer, I was responsible for developing and maintaining software applications for book inventory and entry systems. During my six years at the company, I gained extensive experience in full-stack development, database management, and system integration. I also collaborated with cross-functional teams to deliver high-quality software solutions that met business requirements.
             </p>
@@ -287,10 +286,10 @@
             </ul>
           </div>
         </div>
-        <div class="experience" itemprop="ExperienceItem" itemscope itemtype="https://openprd.oddlygeek.com/Schema/ExperienceWork">
+        <div class="experience" itemprop="ExperienceItem" itemscope itemtype="https://openprd.org/Schema/ExperienceWork">
           <h3><span itemprop="jobTitle">Entry Level Software Developer</span> | <span itemprop="organization">Acme Atoms</span></h3>
           <h4><span itemprop="location">Gutenberg, Germany</span><span itemprop="startDate">January 2012</span> – <span itemprop="endDate">April 2014</span></h4>
-          <div itemscope itemprop="experienceDescription" itemtype="https://openprd.oddlygeek.com/Schema/experienceDescription">
+          <div itemscope itemprop="experienceDescription" itemtype="https://openprd.org/Schema/experienceDescription">
             <p itemprop="summary">
               As an entry-level Software Developer at Acme Atoms, I gained valuable experience in developing software applications and working in a team environment. During my two years at the company, I contributed to the development of several projects, honed my technical skills, and developed effective communication and collaboration skills.
             </p>

@@ -1,12 +1,12 @@
 {
   "type": [
-    "https://openprd.oddlygeek.com/Schema/Resume"
+    "https://openprd.org/Schema/Resume"
   ],
   "properties": {
     "ContactCard": [
       {
         "type": [
-          "https://openprd.oddlygeek.com/Schema/ContactCard"
+          "https://openprd.org/Schema/ContactCard"
         ],
         "properties": {
           "email": [
@@ -27,7 +27,7 @@
     "SkillList": [
       {
         "type": [
-          "https://openprd.oddlygeek.com/Schema/Skill"
+          "https://openprd.org/Schema/Skill"
         ],
         "properties": {
           "skill": [
@@ -55,25 +55,25 @@
       }
     ],
     "EducationList": [
-      "Education  --Degree--  Gadsden State Community College  Associates DegreeComputer Science  Oct  2001 - May 2004"
+      "\n          Education\n          \n            --Degree--\n            Gadsden State Community College\n            Associates DegreeComputer Science\n                Oct\n                2001\n               - May 2004\n          \n        "
     ],
     "School": [
       {
         "type": [
-          "https://openprd.oddlygeek.com/Schema/School"
+          "https://openprd.org/Schema/School"
         ],
         "properties": {
           "name": [
             "Gadsden State Community College"
           ],
           "degree": [
-            "Associates DegreeComputer Science  Oct  2001 - May 2004"
+            "Associates DegreeComputer Science\n                Oct\n                2001\n               - May 2004"
           ],
           "major": [
             "Computer Science"
           ],
           "startDate": [
-            "  Oct  2001"
+            "\n                Oct\n                2001\n              "
           ],
           "endDate": [
             "May 2004"
@@ -84,7 +84,7 @@
     "Person": [
       {
         "type": [
-          "https://openprd.oddlygeek.com/Schema/Person"
+          "https://openprd.org/Schema/Person"
         ],
         "properties": {
           "firstName": [
@@ -97,28 +97,28 @@
       }
     ],
     "Summary": [
-      "Experienced Software Developer with 11 years of expertise in Python and cloud services. Proven track record of delivering high-quality software solutions in three different companies. Skilled in designing, developing, and deploying cloud-based applications. Adept at collaborating with cross-functional teams to identify business requirements and provide effective solutions. Strong problem-solving skills and ability to adapt to new technologies. Looking to bring my skills and experience to a new challenge in a dynamic and innovative organization.  "
+      "\n            \n              Experienced Software Developer with 11 years of expertise in Python and cloud services. Proven track record of delivering high-quality software solutions in three different companies. Skilled in designing, developing, and deploying cloud-based applications. Adept at collaborating with cross-functional teams to identify business requirements and provide effective solutions. Strong problem-solving skills and ability to adapt to new technologies. Looking to bring my skills and experience to a new challenge in a dynamic and innovative organization.\n            \n          "
     ],
     "ExperienceList": [
       {
         "type": [
-          "https://openprd.oddlygeek.com/Schema/ExperienceList"
+          "https://openprd.org/Schema/ExperienceList"
         ],
         "properties": {
           "ExperienceItem": [
             {
               "type": [
-                "https://openprd.oddlygeek.com/Schema/ExperienceWork"
+                "https://openprd.org/Schema/ExperienceWork"
               ],
               "properties": {
                 "jobTitle": [
                   "Senior Software Engineer"
                 ],
                 "organization": [
-                  "https://www.gutenbergpress.oddlygeek.com/"
+                  "John Mac's Fresca Bar"
                 ],
                 "location": [
-                  "Remote, USA | June 2020 - Current",
+                  "Remote, USA June 2020 - Current",
                   "Remote, USA"
                 ],
                 "startDate": [
@@ -130,11 +130,11 @@
                 "experienceDescription": [
                   {
                     "type": [
-                      "https://openprd.oddlygeek.com/Schema/experienceDescription"
+                      "https://openprd.org/Schema/experienceDescription"
                     ],
                     "properties": {
                       "summary": [
-                        "  As a Senior Software Developer at John Mac's Fresca Bar, I was responsible for developing and maintaining software applications for customer product digital video menus. During my three years at the company, I gained extensive experience in designing and developing cloud-based applications, video streaming, and user interface design. I also collaborated with cross-functional teams to deliver high-quality software solutions that met business requirements."
+                        "\n            As a Senior Software Developer at John Mac's Fresca Bar, I was responsible for developing and maintaining software applications for customer product digital video menus. During my three years at the company, I gained extensive experience in designing and developing cloud-based applications, video streaming, and user interface design. I also collaborated with cross-functional teams to deliver high-quality software solutions that met business requirements.\n          "
                       ],
                       "bulletPoint": [
                         "Designed and developed a cloud-based digital video menu system that displayed product information and video ads to customers using Python, Flask, and AWS",
@@ -153,7 +153,7 @@
             },
             {
               "type": [
-                "https://openprd.oddlygeek.com/Schema/ExperienceWork"
+                "https://openprd.org/Schema/ExperienceWork"
               ],
               "properties": {
                 "jobTitle": [
@@ -174,11 +174,11 @@
                 "experienceDescription": [
                   {
                     "type": [
-                      "https://openprd.oddlygeek.com/Schema/experienceDescription"
+                      "https://openprd.org/Schema/experienceDescription"
                     ],
                     "properties": {
                       "summary": [
-                        "As a Mid-Level Software Developer at Spurgeon's Pulpit Online book retailer, I was responsible for developing and maintaining software applications for book inventory and entry systems. During my six years at the company, I gained extensive experience in full-stack development, database management, and system integration. I also collaborated with cross-functional teams to deliver high-quality software solutions that met business requirements.  "
+                        "\n              As a Mid-Level Software Developer at Spurgeon's Pulpit Online book retailer, I was responsible for developing and maintaining software applications for book inventory and entry systems. During my six years at the company, I gained extensive experience in full-stack development, database management, and system integration. I also collaborated with cross-functional teams to deliver high-quality software solutions that met business requirements.\n            "
                       ],
                       "bulletPoint": [
                         "Developed and maintained a book inventory management system that tracked over 50,000 books using Python, Django, and PostgreSQL",
@@ -197,7 +197,7 @@
             },
             {
               "type": [
-                "https://openprd.oddlygeek.com/Schema/ExperienceWork"
+                "https://openprd.org/Schema/ExperienceWork"
               ],
               "properties": {
                 "jobTitle": [
@@ -218,11 +218,11 @@
                 "experienceDescription": [
                   {
                     "type": [
-                      "https://openprd.oddlygeek.com/Schema/experienceDescription"
+                      "https://openprd.org/Schema/experienceDescription"
                     ],
                     "properties": {
                       "summary": [
-                        "As an entry-level Software Developer at Acme Atoms, I gained valuable experience in developing software applications and working in a team environment. During my two years at the company, I contributed to the development of several projects, honed my technical skills, and developed effective communication and collaboration skills.  "
+                        "\n              As an entry-level Software Developer at Acme Atoms, I gained valuable experience in developing software applications and working in a team environment. During my two years at the company, I contributed to the development of several projects, honed my technical skills, and developed effective communication and collaboration skills.\n            "
                       ],
                       "bulletPoint": [
                         "Collaborated with senior developers to develop and maintain software applications for clients",

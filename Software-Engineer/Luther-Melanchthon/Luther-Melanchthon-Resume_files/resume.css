@@ -210,7 +210,7 @@ body {
 }
 #main-body li {
   list-style-position: outside;
-  list-style-type: none;
+  list-style-type:disc;
 }
 #main-body li:not(:last-child) {
   margin-bottom: 1%;
